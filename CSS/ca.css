@@ -91,11 +91,10 @@ background-repeat:no-repeat;
    margin-top:-1em;
    color:black;
 }
-#mynav1
-{
-	position: fixed;
-	right: 0;
-}
+#mynav2{
+ 	background-color: rgba(0,0,0,0);
+ 	width: 100%;
+ }
 #cont1
 {
 	top: 30%;
