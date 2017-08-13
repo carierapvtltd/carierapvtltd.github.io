@@ -13,7 +13,7 @@ function login(c)
 	{
 		log1.style.display="none";
 		log1.style.zIndex="0";
-		log2.style.zIndex="0";
+		log2.style.zIndex="-100";
 	}
 	
 }
