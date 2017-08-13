@@ -17,3 +17,21 @@ function login(c)
 	}
 	
 }
+var count=0;
+function change()
+{
+	var chng=document.getElementById("mynav");
+	
+	if(count%2==0)
+	{
+	chng.style.backgroundColor="rgba(0,0,0,0.6)";
+	chng.style.color="white";
+	}
+	else
+	{
+		chng.style.backgroundColor="rgba(0,0,0,0)";
+	chng.style.color="white";
+	}
+	count++;
+}
+
