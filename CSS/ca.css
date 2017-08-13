@@ -36,7 +36,6 @@ background-repeat:no-repeat;
 .test {
 	position: fixed;
 	right:0;
-	left:5px;
 	z-index: 10;	
 }
 .test1
@@ -48,24 +47,22 @@ background-repeat:no-repeat;
 #login
 {
 	background-color: white;
-	padding-right: 6px;
+	text-align: center;
 	width: auto;
 	display: none;
 	z-index: 0;
-	left: auto;
-	height: 500px;
-
+	padding-bottom: 50px;
 	position: relative;
 	margin-top: -100px;
 	margin-left: 1px;
-	border-radius:6px;
+	border-radius:15px;
 	box-sizing:border-box;
 	 -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box; 
-     -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.03) inset;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.03) inset;
+     -webkit-box-shadow: 10px 10px 10px rgba(255,255,255,255.03) inset;
+    box-shadow: 10px 10px 10px rgba(255,255,255,0.03) inset;
     border: groove 2px black;
-}
+   }
 
 .button1{
 	text-align:center;
@@ -115,7 +112,8 @@ background-repeat:no-repeat;
 	margin-top: 23px;
 	margin-right: 10px;
 	margin-left: 20px;
-	border: solid 2px black;
+	border: solid 1px black;
+	 box-shadow: 5px 5px 5px 5px;
 }
 #form2
 {
@@ -124,7 +122,8 @@ background-repeat:no-repeat;
 	margin-top: 23px;
 	right:0;
 	margin-right: 10px;
-	border: solid 2px black;
+	border: solid 1px black;
+    box-shadow:5px 5px 5px 5px;
 }
 .button2{
 	text-align:center;
@@ -133,14 +132,10 @@ background-repeat:no-repeat;
 	letter-spacing:2px;
 	font-family:sans-serif;
 	border:solid 1px black;
-	transition:all 0.5s ease-in;
+	transition:all 0.3s ease-in;
 }
 .button2:hover{
 	background-color:black;
 	color:white; 
 
-}
-#mynav2{
-	background-color: rgba(0,0,0,0);
-	width: 100%;
 }
