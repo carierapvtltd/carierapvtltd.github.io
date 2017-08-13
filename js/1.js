@@ -20,18 +20,19 @@ function login(c)
 var count=0;
 function change()
 {
-	var chng=document.getElementById("mynav");
-	
+	var chng1=document.getElementById("mynav");
+	var chng2=document.getElementById("mynav2");
 	if(count%2==0)
 	{
-	chng.style.backgroundColor="rgba(0,0,0,0.6)";
-	chng.style.color="white";
+	chng1.style.backgroundColor="rgba(0,0,0,0.6)";
+	chng2.style.backgroundColor="rgba(0,0,0,0.6)";
+	chng1.style.color="white";
 	}
 	else
 	{
-		chng.style.backgroundColor="rgba(0,0,0,0)";
-	chng.style.color="white";
+		chng1.style.backgroundColor="rgba(0,0,0,0)";
+		chng2.style.backgroundColor="rgba(0,0,0,0)";
+	chng1.style.color="white";
 	}
 	count++;
 }
-
