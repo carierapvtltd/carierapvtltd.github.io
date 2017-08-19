@@ -50,6 +50,7 @@ background-repeat:no-repeat;
 	background-color: white;
 	text-align: center;
 	width: auto;
+	height:400px;
 	display: none;
 	z-index: 0;
 	padding-bottom: 50px;
@@ -63,6 +64,7 @@ background-repeat:no-repeat;
      -webkit-box-shadow: 10px 10px 10px rgba(255,255,255,255.03) inset;
     box-shadow: 10px 10px 10px rgba(255,255,255,0.03) inset;
     border: groove 2px black;
+	overflow-y:auto;
    }
 
 .button1{
@@ -145,5 +147,16 @@ background-repeat:no-repeat;
 #mynav2{
 	background-color: rgba(0,0,0,0);
 	width: 100%;
+}
+#contct{
+	text-align:center;
+	margin-top:-1em;
+	height: 100%;
+	padding-bottom:10em;
+	padding-top:5em;
+}
+#about{
+	margin-top:1.4em;
+	height: 100%; 
 }
 
